@@ -61,11 +61,13 @@ function myController(dep1, dep2, dep3) {
 }
 
 /*
-    This APP_CONFIG can be then read by a loader function [(as shown in example)](app/src/index.js) to bootstrap and entire Angular app.
+    This APP_CONFIG can be then read by a loader function to bootstrap and entire Angular app.
 */
 ```
 
 Hence, as we can understand now, in similar fashion, we can declare the Angular modules in JSON, where each moduleType is a collection of actual modules along with its dependencies. By doing such a declaration, it opens up opportunity to declare common injection arrays, discussed below.
+
+[Jump to Bootstraping](app/src/index.js)
 
 ### Declare common dependencies
 Declare common injection arrays, to be used by controllers or other modules. Or declare multiple common injection arrays, to be used by group of modules.
