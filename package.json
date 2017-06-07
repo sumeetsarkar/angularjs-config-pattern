@@ -15,7 +15,7 @@
     "Pattern"
   ],
   "author": "Sumeet Sarkar",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "angular": "^1.6.4",
     "angular-ui-router": "^1.0.3",
