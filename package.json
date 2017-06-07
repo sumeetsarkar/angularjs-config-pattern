@@ -1,0 +1,35 @@
+{
+  "name": "angularjs-config-pattern",
+  "version": "1.0.0",
+  "description": "A config based declaration for AngularJS modules",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_PORT=9000 node index",
+    "build": "gulp"
+  },
+  "keywords": [
+    "Angular",
+    "1",
+    "Config",
+    "Design",
+    "Pattern"
+  ],
+  "author": "Sumeet Sarkar",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.6.4",
+    "angular-ui-router": "^1.0.3",
+    "express": "^4.15.3",
+    "material-design-lite": "^1.3.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.4.1",
+    "gulp-clean-dest": "^0.2.0",
+    "gulp-hb": "^6.0.2",
+    "gulp-minify-html": "^1.0.6",
+    "gulp-rev": "^7.1.2",
+    "gulp-uglify": "^3.0.0",
+    "gulp-usemin": "^0.3.28"
+  }
+}

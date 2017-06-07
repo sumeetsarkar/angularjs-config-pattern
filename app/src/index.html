@@ -1,0 +1,33 @@
+<html ng-app = "app">
+  <head>
+    <title> Demo App </title>
+    <meta http-equiv="Cache-control" content="public">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/ico" href="/img/favicon.ico"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!-- build:cssVendor vendor.css -->
+    <link rel="stylesheet" href="../node_modules/material-design-lite/material.min.css">
+    <!-- endbuild -->
+    <!-- build:cssApp main.css -->
+    <link rel="stylesheet" href="/css/app.css">
+    <!-- endbuild -->
+  </head>
+
+  <body>
+    <div ui-view/>
+    <!-- build:jsVendor vendor.js -->
+    <script src="../node_modules/angular/angular.min.js"></script>
+    <script src="../node_modules/angular-ui-router/release/angular-ui-router.min.js"></script>
+    <script src="../node_modules/material-design-lite/material.min.js"></script>
+    <!-- endbuild -->
+    <!-- build:jsApp main.js -->
+    <script src="/src/index.js"></script>
+    <script src="/src/config.js"></script>
+    <script src="/src/services/api.service.js"></script>
+    <script src="/src/services/app.factory.js"></script>
+    <script src="/src/messages/messages.controller.js"></script>
+    <script src="/src/directives/common.directive.js"></script>
+    <!-- endbuild -->
+  </body>
+</html>
