@@ -18,7 +18,7 @@ Surely all this can be done with conventional way of declaring Angular modules, 
 Also, it kind of makes all modules appear as regular javascript functions and hence appears less intimidating for newbies learning Angular.
 
 ### Sample usage
-[Config declaration & bootstrapping](app/index.js)
+[Config declaration & bootstrapping](app/src/index.js)
 
 ### Install dependencies
     npm install
